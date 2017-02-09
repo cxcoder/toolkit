@@ -1,0 +1,45 @@
+1. eclipse.ini 
+jre路径
+-vm
+F:\jdk1.8.0_45\jre\bin
+
+JVM 参数
+-Xms512m
+-Xmx512m
+-XX:+UseParallelGC
+
+2. 启动时取消要激活的插件
+General -> Startup and Shutdown
+
+3. 关闭自动更新
+Install/Update -> Automatic Update -> 取消勾选
+
+4. 关闭自动构建，运行前会自动构建
+Project -> Build Atomatically -> 取消勾选
+
+5. 关闭拼写检查
+General -> Editors -> Text Editors -> Spelling -> 取消勾选
+
+6. 关闭 Save Actions
+Java -> Editor -> Save Actions -> 取消勾选
+
+7. 关闭代码自动提示，使用 alt+/ 即可
+Java -> Editor -> Content Assist -> Auto Activation -> 取消勾选
+
+8. 文本编辑器设置
+General -> Editors -> Text Editors
+
+Insert spaces for tabs 用空格替代tab
+Background color 设置成豆沙绿 80 95 205
+
+9. 工作空间设置
+General -> Workspace
+
+Build Atomatically -> 取消勾选
+Save atomatically before build -> 勾选
+Text file encoding -> UTF-8
+line delimiter -> Unix
+General -> Workspace -> Local History -> 可以关闭
+
+10. 设置文件UTF-8编码
+General -> Content Types -> 按需设置 Default encoding
